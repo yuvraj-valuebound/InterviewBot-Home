@@ -4,6 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.outer-container {
+  overflow: hidden;
+}
+
+.app-container {
+  transform: scale(0.9);
+  transform-origin: top left;
+  /* Adjust the width to compensate for the scaling, so it takes up the full viewport */
+  width: calc(100% / 0.9);
+}
+
 body {
   @apply font-poppins text-gray-800 bg-white;
 }
