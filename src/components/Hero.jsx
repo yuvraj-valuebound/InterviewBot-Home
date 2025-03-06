@@ -44,22 +44,22 @@ const Hero = () => {
               <div className="flex space-x-6">
                 {/* Replace with actual company logos */}
                 <img
-                  src="src/assets/intel.jpg"
+                  src="/assets/intel.jpg"
                   alt="Company 1"
                   className="h-28 rounded-lg shadow-lg "
                 />
                 <img
-                  src="src/assets/microsoft.png"
+                  src="/assets/microsoft.png"
                   alt="Company 2"
                   className="h-28 rounded-lg shadow-lg "
                 />
                 <img
-                  src="src/assets/tata.png"
+                  src="/assets/tata.png"
                   alt="Company 3"
                   className="h-28 rounded-lg shadow-lg "
                 />
                 <img
-                  src="src/assets/hsbc.png"
+                  src="/assets/hsbc.png"
                   alt="Company 4"
                   className="h-28 rounded-lg shadow-lg "
                 />
@@ -73,7 +73,7 @@ const Hero = () => {
             className="lg:w-1/2"
           >
             <img
-              src="src/assets/image.png"
+              src="/assets/image.png"
               alt="AI Interview Assistant"
               className="w-full h-[380px] rounded-lg shadow-lg animate-float"
             />
