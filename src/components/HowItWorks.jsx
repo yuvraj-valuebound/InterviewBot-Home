@@ -3,20 +3,24 @@ import { useInView } from "react-intersection-observer";
 
 const steps = [
   {
-    title: "Set Up Interview",
-    description: "Define job requirements and interview parameters.",
+    title: "Upload. Click. Done.",
+    description:
+      "Drop in your job description, select your hiring criteria, and upload candidates list."
   },
   {
-    title: "AI Preparation",
-    description: "Our AI analyzes the job and prepares relevant questions.",
+    title: "AI invites the candidates for interviews",
+    description:
+      "Candidates receive an email with a link to complete their interview with instructions.",
   },
   {
-    title: "Conduct Interview",
-    description: "The AI interviewer interacts with the candidate.",
+    title: "Candidates take the interview",
+    description:
+      "Candidates click the link, fill in their details, and take the interview.",
   },
   {
-    title: "Receive Insights",
-    description: "Get detailed reports and analytics on candidate performance.",
+    title: "AI scores the interviews",
+    description:
+      "Provides a comprehensive scorecard for each candidate based on their responses.",
   },
 ];
 
@@ -26,7 +30,7 @@ const Step = ({ title, description, index, inView }) => (
       inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
     }`}
   >
-    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold">
+    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center text-xl font-bold">
       {index + 1}
     </div>
     <div className="ml-4">
@@ -45,10 +49,9 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="section-title">How It Works</h2>
-        <p className="section-subtitle">
-          Our simple 4-step process to revolutionize your hiring
-        </p>
+        <h3 className="text-2xl font-bold mb-4 text-center text-purple-700">
+          The 4 simple steps to get started
+        </h3>
         <div ref={ref} className="max-w-3xl mx-auto">
           {steps.map((step, index) => (
             <Step key={index} {...step} index={index} inView={inView} />

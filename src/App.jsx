@@ -19,7 +19,6 @@ function App() {
         <About />
         <HowItWorks />
         <Testimonials />
-        <Pricing />
         <Contact />
         <Footer />
       </div>

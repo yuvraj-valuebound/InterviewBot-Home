@@ -23,11 +23,11 @@ const Navbar = () => {
           <div className="text-2xl font-bold text-purple-700">AI Interview</div>
           <div className="hidden md:flex space-x-6">
             <NavLink to="home">Home</NavLink>
-            <NavLink to="services">Services</NavLink>
-            <NavLink to="about">About</NavLink>
+            <NavLink to="features">Features</NavLink>
+            <NavLink to="pricing">Pricing</NavLink>
             <NavLink to="contact">Contact</NavLink>
           </div>
-          <button className="btn-primary">Get Started</button>
+          <button className="btn-primary">Talk To Us</button>
         </div>
       </div>
     </nav>
