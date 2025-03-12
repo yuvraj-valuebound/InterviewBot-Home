@@ -40,7 +40,7 @@ const PricingCard = ({ name, price, features, isAnnual }) => (
       {features.map((feature, index) => (
         <li key={index} className="flex items-center mb-2">
           <svg
-            className="w-5 h-5 text-blue-600 mr-2"
+            className="w-5 h-5 text-indigo-600 mr-2"
             fill="currentColor"
             viewBox="0 0 20 20"
           >
@@ -87,7 +87,7 @@ const Pricing = () => {
               </button>
             </div>
             {isAnnual && (
-              <div className="absolute -top-6 right-0 bg-blue-600 text-white text-xs py-1 px-2 rounded">
+              <div className="absolute -top-6 right-0 bg-indigo-600 text-white text-xs py-1 px-2 rounded">
                 Save 20%
               </div>
             )}

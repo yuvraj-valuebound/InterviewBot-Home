@@ -7,7 +7,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        purple: {
+        indigo: {
           700: "#6f42c1",
           800: "#5a32a3",
         },

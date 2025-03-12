@@ -38,7 +38,7 @@ const Testimonial = ({ name, company, quote, image }) => (
           {quote}
         </p>
       </div>
-      <div className="mt-4 text-purple-700">
+      <div className="mt-4 text-indigo-700">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-8 w-8"
@@ -87,15 +87,15 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="pt-20 bg-gray-100">
+    <section className="pt-20 bg-gray-100 overflow-hidden">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-6 text-center text-purple-700">
+        <h2 className="text-4xl font-bold mb-6 text-center text-indigo-700">
           What Our Clients Say
         </h2>
         <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
           Hear from companies that have transformed their hiring process with AI Interview Assistant
         </p>
-        <div className="h-[300px]">
+        <div className="h-[250px]">
           <Slider {...settings}>
             {testimonials.map((testimonial, index) => (
               <div key={index} className="h-full">

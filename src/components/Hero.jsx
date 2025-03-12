@@ -38,7 +38,7 @@ const Hero = () => {
             className="lg:w-3/5"
           >
             <img
-              src="/assets/image.png"
+              src="/assets/ai_mockup.png"
               alt="AI Interview Assistant"
               className="w-full h-[420px] rounded-lg shadow-lg animate-float"
             />

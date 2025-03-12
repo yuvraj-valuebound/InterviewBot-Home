@@ -12,10 +12,8 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-semibold text-white">AI Interview</h3>
-            <p className="text-gray-400 leading-relaxed">
-              Revolutionizing hiring through intelligent conversations
-            </p>
+            <h3 className="text-2xl font-semibold text-white"></h3>
+            
             <div className="flex space-x-5">
               {[
                 /* Social Icons */
@@ -23,7 +21,7 @@ const Footer = () => {
                 <motion.a
                   key={index}
                   whileHover={{ scale: 1.1 }}
-                  className="text-gray-400 hover:text-blue-400 transition-colors"
+                  className="text-gray-400 hover:text-indigo-400 transition-colors"
                   href="#"
                 >
                   <svg
@@ -45,14 +43,14 @@ const Footer = () => {
             transition={{ delay: 0.1 }}
           >
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-              Navigation
+             
             </h4>
             <ul className="space-y-4">
-              {["Home", "Features", "Pricing", "About"].map((item, index) => (
+              {[""].map((item, index) => (
                 <li key={index}>
                   <a
                     href="#"
-                    className="hover:text-blue-400 transition-colors text-gray-400"
+                    className="hover:text-indigo-400 transition-colors text-gray-400"
                   >
                     {item}
                   </a>
@@ -68,15 +66,15 @@ const Footer = () => {
             transition={{ delay: 0.2 }}
           >
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-              Resources
+              
             </h4>
             <ul className="space-y-4">
-              {["Blog", "Documentation", "Help Center", "API Status"].map(
+              {[""].map(
                 (item, index) => (
                   <li key={index}>
                     <a
                       href="#"
-                      className="hover:text-blue-400 transition-colors text-gray-400"
+                      className="hover:text-indigo-400 transition-colors text-gray-400"
                     >
                       {item}
                     </a>
@@ -94,17 +92,13 @@ const Footer = () => {
             className="space-y-6"
           >
             <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
-              Stay Updated
+              
             </h4>
             <form className="flex flex-col space-y-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full px-5 py-3 bg-gray-800 rounded-lg border border-gray-700 focus:border-blue-400 focus:ring-2 focus:ring-blue-400/30 outline-none transition-all"
-              />
+              
               <motion.button
                 whileHover={{ scale: 1.02 }}
-                className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 px-6 rounded-lg font-medium hover:shadow-lg transition-all"
+                className="w-full bg-gradient-to-r from-indigo-500 to-indigo-600 text-white py-3 px-6 rounded-lg font-medium hover:shadow-lg transition-all"
               >
                 Subscribe
               </motion.button>

@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-purple-700">AI Interview</div>
+          <div className="text-2xl font-bold text-indigo-700">AI Interview</div>
           <div className="hidden md:flex space-x-6">
             <NavLink to="home">Home</NavLink>
             <NavLink to="features">Features</NavLink>
@@ -39,7 +39,7 @@ const NavLink = ({ to, children }) => (
     to={to}
     smooth={true}
     duration={500}
-    className="text-gray-800 hover:text-purple-700 cursor-pointer"
+    className="text-gray-800 hover:text-indigo-700 cursor-pointer"
   >
     {children}
   </Link>

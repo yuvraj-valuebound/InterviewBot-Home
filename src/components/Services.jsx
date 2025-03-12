@@ -33,7 +33,7 @@ const ServiceCard = ({ title, icon, description, index }) => (
     className="bg-white p-8 rounded-lg shadow-md transition-all duration-300 hover:shadow-xl"
   >
     <div className="text-5xl mb-6">{icon}</div>
-    <h3 className="text-2xl font-semibold mb-4 text-purple-700">{title}</h3>
+    <h3 className="text-2xl font-semibold mb-4 text-indigo-700">{title}</h3>
     <p className="text-lg text-gray-600">{description}</p>
   </motion.div>
 );
@@ -47,7 +47,7 @@ const Services = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-12 text-center text-purple-700"
+          className="text-4xl font-bold mb-12 text-center text-indigo-700"
         >
           Secure top talent today, while your competitors are still searching tomorrow.
         </motion.h2>
@@ -57,20 +57,6 @@ const Services = () => {
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} index={index} />
           ))}
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-20 text-center">
-          <h3 className="text-2xl font-semibold mb-6">
-            Unleash Precision Hiring Now
-          </h3>
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="btn-primary"
-          >
-            Start Free Trial
-          </motion.button>
         </div>
       </div>
     </section>
