@@ -104,7 +104,7 @@ const About = () => {
                 )
               }
             >
-              Secure Your Hiring Now
+              Sign Up
             </motion.button>
           </motion.div>
         </div>
