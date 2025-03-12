@@ -23,14 +23,14 @@ const Contact = () => {
           <div className="flex justify-center space-x-6 mt-4">
             <a
               href="tel:+918109062156"
-              className="hover:text-indigo-600 transition-colors"
+              className="hover:text-blue-600 transition-colors"
             >
               📞 +91 8109062156
             </a>
             <span className="text-gray-300">|</span>
             <a
               href="tanay@valuebound.com"
-              className="hover:text-indigo-600 transition-colors"
+              className="hover:text-blue-600 transition-colors"
             >
               📧 tanay@valuebound.com
             </a>

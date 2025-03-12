@@ -13,7 +13,7 @@ const Footer = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-semibold text-white"></h3>
-            
+
             <div className="flex space-x-5">
               {[
                 /* Social Icons */
@@ -21,7 +21,7 @@ const Footer = () => {
                 <motion.a
                   key={index}
                   whileHover={{ scale: 1.1 }}
-                  className="text-gray-400 hover:text-indigo-400 transition-colors"
+                  className="text-gray-400 hover:text-blue-400 transition-colors"
                   href="#"
                 >
                   <svg
@@ -42,15 +42,13 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-             
-            </h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6"></h4>
             <ul className="space-y-4">
               {[""].map((item, index) => (
                 <li key={index}>
                   <a
                     href="#"
-                    className="hover:text-indigo-400 transition-colors text-gray-400"
+                    className="hover:text-blue-400 transition-colors text-gray-400"
                   >
                     {item}
                   </a>
@@ -65,22 +63,18 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6">
-              
-            </h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white mb-6"></h4>
             <ul className="space-y-4">
-              {[""].map(
-                (item, index) => (
-                  <li key={index}>
-                    <a
-                      href="#"
-                      className="hover:text-indigo-400 transition-colors text-gray-400"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                )
-              )}
+              {[""].map((item, index) => (
+                <li key={index}>
+                  <a
+                    href="#"
+                    className="hover:text-blue-400 transition-colors text-gray-400"
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
 
@@ -91,14 +85,11 @@ const Footer = () => {
             transition={{ delay: 0.3 }}
             className="space-y-6"
           >
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
-              
-            </h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white"></h4>
             <form className="flex flex-col space-y-4">
-              
               <motion.button
                 whileHover={{ scale: 1.02 }}
-                className="w-full bg-gradient-to-r from-indigo-500 to-indigo-600 text-white py-3 px-6 rounded-lg font-medium hover:shadow-lg transition-all"
+                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-6 rounded-lg font-medium hover:shadow-lg transition-all"
               >
                 Subscribe
               </motion.button>

@@ -20,7 +20,6 @@ function App() {
         <HowItWorks />
         <Testimonials />
         <Contact />
-        <Footer />
       </div>
     </div>
   );

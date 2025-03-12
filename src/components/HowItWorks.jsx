@@ -5,7 +5,7 @@ const steps = [
   {
     title: "Upload. Click. Done.",
     description:
-      "Drop in your job description, select your hiring criteria, and upload candidates list."
+      "Drop in your job description, select your hiring criteria, and upload candidates list.",
   },
   {
     title: "AI invites the candidates for interviews",
@@ -30,7 +30,7 @@ const Step = ({ title, description, index, inView }) => (
       inView ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
     }`}
   >
-    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-indigo-600 text-white flex items-center justify-center text-xl font-bold">
+    <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold">
       {index + 1}
     </div>
     <div className="ml-4">
@@ -49,7 +49,7 @@ const HowItWorks = () => {
   return (
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h3 className="text-2xl font-bold mb-4 text-center text-indigo-700">
+        <h3 className="text-2xl font-bold mb-4 text-center text-blue-700">
           The 4 simple steps to get started
         </h3>
         <div ref={ref} className="max-w-3xl mx-auto">
