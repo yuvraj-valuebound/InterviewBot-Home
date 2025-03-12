@@ -27,13 +27,13 @@ const Contact = () => {
             >
               📞 +91 8109062156
             </a>
-            <span className="text-gray-300">|</span>
+            {/* <span className="text-gray-300">|</span>
             <a
               href="tanay@valuebound.com"
               className="hover:text-blue-600 transition-colors"
             >
               📧 tanay@valuebound.com
-            </a>
+            </a> */}
           </div>
         </motion.div>
       </div>
