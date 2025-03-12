@@ -17,14 +17,14 @@ const testimonials = [
     company: "HR Manager",
     quote:
       "This AI-powered tool has streamlined our recruitment process, making hiring faster and more efficient than ever before.",
-    image: "/assets/sana_amjad.jpg",
+    image: "/assets/sana_img.jpg",
   },
   {
     name: "Puja Kumari",
     company: "HRMO",
     quote:
       "The insights provided by this tool are invaluable. It's like having an expert interviewer on our team, available 24/7.",
-    image: "/assets/puja_kumari.jpg",
+    image: "/assets/puja_img.jpg",
   },
 ];
 

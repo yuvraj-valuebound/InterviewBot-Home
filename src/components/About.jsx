@@ -24,7 +24,7 @@ const About = () => {
             className="lg:w-3/5"
           >
             <img
-              src="/assets/protor.png"
+              src="/assets/proto.png"
               alt="AI Interview Assistant"
               className="w-full h-[420px] rounded-lg shadow-lg animate-float"
             />
