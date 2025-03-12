@@ -15,7 +15,7 @@ const steps = [
   {
     title: "Candidates take the interview",
     description:
-      "Candidates click the link, fill in their details, and take the interview.",
+      "Candidates click the link, enter their details, upload their photo and ID, and then proceed with the interview.",
   },
   {
     title: "AI scores the interviews",
