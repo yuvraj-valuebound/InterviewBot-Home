@@ -3,24 +3,20 @@ import { useInView } from "react-intersection-observer";
 
 const steps = [
   {
-    title: "Upload. Click. Done.",
-    description:
-      "Drop in your job description, select your hiring criteria, and upload candidates list.",
+    title: "Upload & Go",
+    description: "Drop in the JD. Upload candidates. Click start.",
   },
   {
-    title: "AI invites the candidates for interviews",
-    description:
-      "Candidates receive an email with a link to complete their interview with instructions.",
+    title: "AI Sends Invites",
+    description: "Candidates get instant interview links. No scheduling needed.",
   },
   {
-    title: "Candidates take the interview",
-    description:
-      "Candidates click the link, enter their details, upload their photo and ID, and then proceed with the interview.",
+    title: "Candidates Record",
+    description: "They verify ID, answer questions, and submit—on their time.",
   },
   {
-    title: "AI scores the interviews",
-    description:
-      "Provides a comprehensive scorecard for each candidate based on their responses.",
+    title: "AI Scores & Shortlists",
+    description: "Instant rankings. No bias. Just top talent.",
   },
 ];
 
@@ -50,7 +46,7 @@ const HowItWorks = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <h3 className="text-2xl font-bold mb-4 text-center text-blue-700">
-          The 4 simple steps to get started
+          Hire in 4 Easy Steps
         </h3>
         <div ref={ref} className="max-w-3xl mx-auto">
           {steps.map((step, index) => (

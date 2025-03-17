@@ -3,28 +3,24 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Set Up in Seconds",
-    icon: "🚀",
-    description:
-      "Upload job description, select interviewer, upload list of candidates and you're all set.",
+    title: "One-Click Job Kickoff",
+    icon: "⚡",
+    description: "Upload JD. Start screening.",
   },
   {
-    title: "Natural Questions",
+    title: "Resumes Unpacked in Seconds",
+    icon: "📄",
+    description: "AI decodes every detail.",
+  },
+  {
+    title: "No Bias. Just Talent.",
     icon: "🤖",
-    description:
-      "Questions and follow ups are generated dynamically based on resume and job description.",
+    description: "Pure screening. Zero bias.",
   },
   {
-    title: "No Bias, Only Skill",
-    icon: "🛡️",
-    description:
-      " All candidates are scored based on a unified merit system, no room for human bias.",
-  },
-  {
-    title: "Vibe Check? Passed",
-    icon: "📊",
-    description:
-      "Shows potential red flags or areas of further investigation where there is uncertainity.",
+    title: "Winners Only. No Noise.",
+    icon: "✅",
+    description: "High quality. Zero clutter.",
   },
 ];
 
@@ -44,24 +40,20 @@ const ServiceCard = ({ title, icon, description, index }) => (
 
 const Services = () => {
   return (
-    <section
-      id="services"
-      className="min-h-screen flex items-center bg-white py-20"
-    >
+    <section id="services" className="min-h-screen flex items-center bg-white py-20">
       <div className="container mx-auto px-6">
         {/* Main Heading */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-4xl font-bold mb-12 text-center text-blue-700"
+          className="text-4xl font-bold mb-6 text-center text-blue-700"
         >
-          Secure top talent today, while your competitors are still searching
-          tomorrow.
+          Cut the noise, keep the winners
         </motion.h2>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-blue-700">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {services.map((service, index) => (
             <ServiceCard key={index} {...service} index={index} />
           ))}
